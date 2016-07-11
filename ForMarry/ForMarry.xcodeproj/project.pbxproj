@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CC99033895A5D8C5DE570BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 671AB4BE960FCDA08E076967 /* libPods.a */; };
-		D69D1A711D336F700098DD50 /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D1A701D336F700098DD50 /* TestTool.m */; };
+		D69D1A711D336F700098DD50 /* FMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D1A701D336F700098DD50 /* FMTool.m */; };
 		D6DD58D11D33746C0076D845 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD58D01D33746C0076D845 /* MatchViewController.m */; };
 		D6DD58D51D33749F0076D845 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD58D41D33749F0076D845 /* MemberViewController.m */; };
 		DD41F9AC1D33509D00F11FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9AB1D33509D00F11FB1 /* main.m */; };
@@ -31,8 +31,8 @@
 		3FB9BB91E6382A67E1CF310A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		58F135F42E5A602A464A67A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		671AB4BE960FCDA08E076967 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D69D1A6F1D336F700098DD50 /* TestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
-		D69D1A701D336F700098DD50 /* TestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
+		D69D1A6F1D336F700098DD50 /* FMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTool.h; sourceTree = "<group>"; };
+		D69D1A701D336F700098DD50 /* FMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTool.m; sourceTree = "<group>"; };
 		D6DD58CF1D33746C0076D845 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
 		D6DD58D01D33746C0076D845 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
 		D6DD58D31D33749F0076D845 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 		D69D1A6E1D336F700098DD50 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				D69D1A6F1D336F700098DD50 /* TestTool.h */,
-				D69D1A701D336F700098DD50 /* TestTool.m */,
+				D69D1A6F1D336F700098DD50 /* FMTool.h */,
+				D69D1A701D336F700098DD50 /* FMTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 			files = (
 				DD41F9AF1D33509D00F11FB1 /* AppDelegate.m in Sources */,
 				DD41F9E91D336D6F00F11FB1 /* BaseViewController.m in Sources */,
-				D69D1A711D336F700098DD50 /* TestTool.m in Sources */,
+				D69D1A711D336F700098DD50 /* FMTool.m in Sources */,
 				DD41F9AC1D33509D00F11FB1 /* main.m in Sources */,
 				DD41F9E31D336D4D00F11FB1 /* MD5Security.m in Sources */,
 				DD41F9E51D336D4D00F11FB1 /* UIColor+RGB.m in Sources */,

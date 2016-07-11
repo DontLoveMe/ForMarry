@@ -31,6 +31,7 @@
      @{NSFontAttributeName:[UIFont systemFontOfSize:22],
        NSForegroundColorAttributeName : [UIColor whiteColor]}];
     [self _addBackItem];
+    
 }
 
 //设置返回按钮

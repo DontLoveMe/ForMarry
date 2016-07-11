@@ -6,9 +6,9 @@
 //  Copyright © 2016年 nevermore. All rights reserved.
 //
 
-#import "TestTool.h"
+#import "FMTool.h"
 
-@implementation TestTool
+@implementation FMTool
 
 /**
  *  GET--AFN+JSON

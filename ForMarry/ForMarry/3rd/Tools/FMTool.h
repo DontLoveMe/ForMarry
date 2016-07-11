@@ -20,7 +20,7 @@
  *  这里，引用AFNetworking和json框架，封装简化了一些网络请求的过程。
  */
 
-@interface TestTool : NSObject
+@interface FMTool : NSObject
 
 //GET--AFN+JSON
 + (void)get:(NSString *)url
