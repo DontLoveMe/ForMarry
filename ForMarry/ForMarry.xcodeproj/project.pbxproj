@@ -14,6 +14,14 @@
 		DD41F9BA1D33509D00F11FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9B81D33509D00F11FB1 /* LaunchScreen.storyboard */; };
 		DD41F9CF1D3353DE00F11FB1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9CD1D3353DE00F11FB1 /* LoginController.m */; };
 		DD41F9D01D3353DE00F11FB1 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9CE1D3353DE00F11FB1 /* LoginController.xib */; };
+		DD41F9E01D336D4D00F11FB1 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9D31D336D4D00F11FB1 /* 37x-Checkmark.png */; };
+		DD41F9E11D336D4D00F11FB1 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9D41D336D4D00F11FB1 /* 37x-Checkmark@2x.png */; };
+		DD41F9E21D336D4D00F11FB1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9D61D336D4D00F11FB1 /* MBProgressHUD.m */; };
+		DD41F9E31D336D4D00F11FB1 /* MD5Security.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9D91D336D4D00F11FB1 /* MD5Security.m */; };
+		DD41F9E41D336D4D00F11FB1 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9DC1D336D4D00F11FB1 /* UIViewExt.m */; };
+		DD41F9E51D336D4D00F11FB1 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9DF1D336D4D00F11FB1 /* UIColor+RGB.m */; };
+		DD41F9E91D336D6F00F11FB1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9E71D336D6F00F11FB1 /* BaseViewController.m */; };
+		DD41F9EA1D336D6F00F11FB1 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9E81D336D6F00F11FB1 /* BaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,19 @@
 		DD41F9CC1D3353DE00F11FB1 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		DD41F9CD1D3353DE00F11FB1 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		DD41F9CE1D3353DE00F11FB1 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		DD41F9D31D336D4D00F11FB1 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		DD41F9D41D336D4D00F11FB1 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		DD41F9D51D336D4D00F11FB1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DD41F9D61D336D4D00F11FB1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DD41F9D81D336D4D00F11FB1 /* MD5Security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Security.h; sourceTree = "<group>"; };
+		DD41F9D91D336D4D00F11FB1 /* MD5Security.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Security.m; sourceTree = "<group>"; };
+		DD41F9DB1D336D4D00F11FB1 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		DD41F9DC1D336D4D00F11FB1 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		DD41F9DE1D336D4D00F11FB1 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		DD41F9DF1D336D4D00F11FB1 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		DD41F9E61D336D6F00F11FB1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DD41F9E71D336D6F00F11FB1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DD41F9E81D336D6F00F11FB1 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,7 @@
 				DD41F9AD1D33509D00F11FB1 /* AppDelegate.h */,
 				DD41F9AE1D33509D00F11FB1 /* AppDelegate.m */,
 				DD41F9C71D33523500F11FB1 /* Common.h */,
+				DD41F9D11D336D4D00F11FB1 /* 3rd */,
 				DD41F9C21D33521C00F11FB1 /* Login-Regist */,
 				DD41F9C31D33521C00F11FB1 /* MainCode */,
 				DD41F9C11D33521C00F11FB1 /* Images */,
@@ -128,6 +150,9 @@
 		DD41F9C41D33521C00F11FB1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DD41F9E61D336D6F00F11FB1 /* BaseViewController.h */,
+				DD41F9E71D336D6F00F11FB1 /* BaseViewController.m */,
+				DD41F9E81D336D6F00F11FB1 /* BaseViewController.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -168,6 +193,55 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD41F9D11D336D4D00F11FB1 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F9D21D336D4D00F11FB1 /* MBProgressHUD */,
+				DD41F9D71D336D4D00F11FB1 /* Security */,
+				DD41F9DA1D336D4D00F11FB1 /* UIViewExt */,
+				DD41F9DD1D336D4D00F11FB1 /* 颜色渲染 */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		DD41F9D21D336D4D00F11FB1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F9D31D336D4D00F11FB1 /* 37x-Checkmark.png */,
+				DD41F9D41D336D4D00F11FB1 /* 37x-Checkmark@2x.png */,
+				DD41F9D51D336D4D00F11FB1 /* MBProgressHUD.h */,
+				DD41F9D61D336D4D00F11FB1 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		DD41F9D71D336D4D00F11FB1 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F9D81D336D4D00F11FB1 /* MD5Security.h */,
+				DD41F9D91D336D4D00F11FB1 /* MD5Security.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		DD41F9DA1D336D4D00F11FB1 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F9DB1D336D4D00F11FB1 /* UIViewExt.h */,
+				DD41F9DC1D336D4D00F11FB1 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		DD41F9DD1D336D4D00F11FB1 /* 颜色渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				DD41F9DE1D336D4D00F11FB1 /* UIColor+RGB.h */,
+				DD41F9DF1D336D4D00F11FB1 /* UIColor+RGB.m */,
+			);
+			path = "颜色渲染";
 			sourceTree = "<group>";
 		};
 		EAFE5CB8EA670F4D409B9856 /* Pods */ = {
@@ -239,8 +313,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD41F9E01D336D4D00F11FB1 /* 37x-Checkmark.png in Resources */,
 				DD41F9BA1D33509D00F11FB1 /* LaunchScreen.storyboard in Resources */,
 				DD41F9D01D3353DE00F11FB1 /* LoginController.xib in Resources */,
+				DD41F9EA1D336D6F00F11FB1 /* BaseViewController.xib in Resources */,
+				DD41F9E11D336D4D00F11FB1 /* 37x-Checkmark@2x.png in Resources */,
 				DD41F9B71D33509D00F11FB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,8 +378,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD41F9AF1D33509D00F11FB1 /* AppDelegate.m in Sources */,
+				DD41F9E91D336D6F00F11FB1 /* BaseViewController.m in Sources */,
 				DD41F9AC1D33509D00F11FB1 /* main.m in Sources */,
+				DD41F9E31D336D4D00F11FB1 /* MD5Security.m in Sources */,
+				DD41F9E51D336D4D00F11FB1 /* UIColor+RGB.m in Sources */,
 				DD41F9CF1D3353DE00F11FB1 /* LoginController.m in Sources */,
+				DD41F9E41D336D4D00F11FB1 /* UIViewExt.m in Sources */,
+				DD41F9E21D336D4D00F11FB1 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

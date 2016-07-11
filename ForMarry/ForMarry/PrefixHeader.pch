@@ -11,6 +11,9 @@
 
 #ifdef __OBJC__
 #import "Common.h"
+#import "UIViewExt.h"
+#import "UIColor+RGB.h"
+#import "MBProgressHUD.h"
 #endif
 
 //主色调
