@@ -7,6 +7,8 @@
 //
 
 #import "LoginController.h"
+#import "MatchViewController.h"
+#import "MemberViewController.h"
 
 @interface LoginController ()
 
@@ -27,12 +29,17 @@
 
 - (IBAction)memberAction:(id)sender {
     
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    window.rootViewController = [[MemberViewController alloc] init];
+    
     NSLogFM(@"会员登陆");
     
 }
 
 - (IBAction)makerAction:(id)sender {
 
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    window.rootViewController = [[MatchViewController alloc] init];
     NSLogFM(@"红娘登陆");
 
 }

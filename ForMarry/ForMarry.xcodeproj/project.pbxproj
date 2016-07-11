@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0CC99033895A5D8C5DE570BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 671AB4BE960FCDA08E076967 /* libPods.a */; };
+		D69D1A711D336F700098DD50 /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D1A701D336F700098DD50 /* TestTool.m */; };
+		D6DD58D11D33746C0076D845 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD58D01D33746C0076D845 /* MatchViewController.m */; };
+		D6DD58D51D33749F0076D845 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD58D41D33749F0076D845 /* MemberViewController.m */; };
 		DD41F9AC1D33509D00F11FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9AB1D33509D00F11FB1 /* main.m */; };
 		DD41F9AF1D33509D00F11FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41F9AE1D33509D00F11FB1 /* AppDelegate.m */; };
 		DD41F9B71D33509D00F11FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41F9B61D33509D00F11FB1 /* Assets.xcassets */; };
@@ -28,6 +31,12 @@
 		3FB9BB91E6382A67E1CF310A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		58F135F42E5A602A464A67A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		671AB4BE960FCDA08E076967 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69D1A6F1D336F700098DD50 /* TestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
+		D69D1A701D336F700098DD50 /* TestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
+		D6DD58CF1D33746C0076D845 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		D6DD58D01D33746C0076D845 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		D6DD58D31D33749F0076D845 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		D6DD58D41D33749F0076D845 /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
 		DD41F9A71D33509D00F11FB1 /* ForMarry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForMarry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD41F9AB1D33509D00F11FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD41F9AD1D33509D00F11FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +82,33 @@
 				671AB4BE960FCDA08E076967 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69D1A6E1D336F700098DD50 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D69D1A6F1D336F700098DD50 /* TestTool.h */,
+				D69D1A701D336F700098DD50 /* TestTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D6DD58CE1D33746C0076D845 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD58CF1D33746C0076D845 /* MatchViewController.h */,
+				D6DD58D01D33746C0076D845 /* MatchViewController.m */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		D6DD58D21D3374750076D845 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD58D31D33749F0076D845 /* MemberViewController.h */,
+				D6DD58D41D33749F0076D845 /* MemberViewController.m */,
+			);
+			path = TabbarController;
 			sourceTree = "<group>";
 		};
 		DD41F99E1D33509D00F11FB1 = {
@@ -160,6 +196,7 @@
 		DD41F9C51D33521C00F11FB1 /* MatchMaker */ = {
 			isa = PBXGroup;
 			children = (
+				D6DD58CE1D33746C0076D845 /* TabbarController */,
 			);
 			path = MatchMaker;
 			sourceTree = "<group>";
@@ -167,6 +204,7 @@
 		DD41F9C61D33521C00F11FB1 /* Member */ = {
 			isa = PBXGroup;
 			children = (
+				D6DD58D21D3374750076D845 /* TabbarController */,
 			);
 			path = Member;
 			sourceTree = "<group>";
@@ -198,6 +236,7 @@
 		DD41F9D11D336D4D00F11FB1 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				D69D1A6E1D336F700098DD50 /* Tools */,
 				DD41F9D21D336D4D00F11FB1 /* MBProgressHUD */,
 				DD41F9D71D336D4D00F11FB1 /* Security */,
 				DD41F9DA1D336D4D00F11FB1 /* UIViewExt */,
@@ -379,11 +418,14 @@
 			files = (
 				DD41F9AF1D33509D00F11FB1 /* AppDelegate.m in Sources */,
 				DD41F9E91D336D6F00F11FB1 /* BaseViewController.m in Sources */,
+				D69D1A711D336F700098DD50 /* TestTool.m in Sources */,
 				DD41F9AC1D33509D00F11FB1 /* main.m in Sources */,
 				DD41F9E31D336D4D00F11FB1 /* MD5Security.m in Sources */,
 				DD41F9E51D336D4D00F11FB1 /* UIColor+RGB.m in Sources */,
 				DD41F9CF1D3353DE00F11FB1 /* LoginController.m in Sources */,
 				DD41F9E41D336D4D00F11FB1 /* UIViewExt.m in Sources */,
+				D6DD58D11D33746C0076D845 /* MatchViewController.m in Sources */,
+				D6DD58D51D33749F0076D845 /* MemberViewController.m in Sources */,
 				DD41F9E21D336D4D00F11FB1 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
